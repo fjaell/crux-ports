@@ -1,0 +1,15 @@
+# Description: AWK interpreter
+# URL: https://invisible-island.net/mawk
+# Maintainer: Juergen Daubert, jue at crux dot nu
+
+name=mawk
+version=1.3.4-20250131
+release=1
+source=(https://invisible-mirror.net/archives/mawk/$name-$version.tgz)
+
+build() {
+    cd $name-$version
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+}

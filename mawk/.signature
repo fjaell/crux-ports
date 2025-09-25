@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jue.pub
+RWQJfAOele67BfEumoiW5u/y5azDFEkLTT/owgTL2A29MxEy8+zihLUS0M1Bg37G1xjiT5avfgIwudZ9z9ZECnEY6JEoYUXQ5QE=
+SHA256 (Pkgfile) = 73ecc131d8cbca7087f2beb2f7b19597b3dbd297a1deed01681120df6c6121a5
+SHA256 (.footprint) = d6debbe5a080ad01dc4115dc81b096a758de6988385bb15b38dae36d6da27aeb
+SHA256 (mawk-1.3.4-20250131.tgz) = 51bcb82d577b141d896d9d9c3077d7aaa209490132e9f2b9573ba8511b3835be
