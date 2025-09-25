@@ -1,0 +1,16 @@
+# Description: German dictionary for aspell
+# URL: http://aspell.net
+# Maintainer: Juergen Daubert, jue at crux dot nu
+# Depends on: aspell
+
+name=aspell-de
+version=20161207-7-0
+release=1
+source=(https://ftpmirror.gnu.org/gnu/aspell/dict/de/aspell6-de-$version.tar.bz2)
+
+build () {
+    cd aspell6-de-$version
+    ./configure
+    make
+    make DESTDIR=$PKG install
+}
