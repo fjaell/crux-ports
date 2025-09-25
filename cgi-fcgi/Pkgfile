@@ -1,0 +1,17 @@
+# Description: Bridge from CGI to FastCGI
+# URL: http://www.fastcgi.com/
+# Maintainer: Juergen Daubert, jue at crux dot nu
+
+name=cgi-fcgi
+version=2.4.1
+release=1
+source=(https://github.com/FastCGI-Archives/FastCGI.com/raw/master/original_snapshot/fcgi-2.4.1-SNAP-0910052249.tar.gz)
+
+build() {
+    cd fcgi-$version-SNAP-0910052249
+    ./configure
+    make -j1 cgi_fcgi_LDFLAGS="-static"
+    install -d $PKG/usr/{bin,share/man/man1}
+    install -m 755 cgi-fcgi/cgi-fcgi $PKG/usr/bin
+    install -m 644 doc/cgi-fcgi.1 $PKG/usr/share/man/man1
+}

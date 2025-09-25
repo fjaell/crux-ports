@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jue.pub
+RWQJfAOele67BT5u8WZpafgApAYA4rZQqlZl+Yv2G21gvBOLpsfehmlCleOAeqCsDS5mJSAHAVOCH7y3317PfFZv5PuVjgvPgwI=
+SHA256 (Pkgfile) = bcfa3332161021f555f71444307ea06827f5dc2c796849c63e5b6cf041c14aaf
+SHA256 (.footprint) = 46a19d3d37bf1107d7e62bf4bd3c203d0171c09fdf077f63c4bb7f8054fe1f92
+SHA256 (fcgi-2.4.1-SNAP-0910052249.tar.gz) = 829dc89a0a372c7b0b172303ec9b42e9d20615d6d0e9fc81570fdac6c41a0f30
