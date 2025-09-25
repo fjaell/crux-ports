@@ -1,0 +1,19 @@
+# Description: Nice, readable 6x13 bitmap font
+# URL:         http://www.erat.org/ 
+# Maintainer:  Juergen Daubert, jue at crux dot nu
+# Depends on:  xorg-mkfontdir, xorg-mkfontscale
+
+name=xorg-font-smooth
+version=1.1
+release=2
+source=(http://www.erat.org/graphics/smooth.pcf.gz
+        smooth.alias smooth.conf)
+
+build() {
+    install -d $PKG/{usr/share/fonts/X11/smooth,etc/X11/xorg.conf.d}
+    install -m 0644 smooth.pcf.gz $PKG/usr/share/fonts/X11/smooth/
+    install -m 0644 smooth.alias $PKG/usr/share/fonts/X11/smooth/fonts.alias
+    install -m 0644 smooth.conf $PKG/etc/X11/xorg.conf.d
+    mkfontdir $PKG/usr/share/fonts/X11/smooth
+    mkfontscale $PKG/usr/share/fonts/X11/smooth
+}

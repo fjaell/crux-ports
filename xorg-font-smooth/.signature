@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/jue.pub
+RWQJfAOele67BYwWCLothfXDHQtvKEadfhpch1J6fdta7lLnyI5JXe4UagSLBdSnTzdJhyT/avhpX2qUjw6OIj0FFkHZ+NxaRw0=
+SHA256 (Pkgfile) = dd65ffc3416c28f403550838d73310bd88233ef4ba322ac4276ab2796bf85034
+SHA256 (.footprint) = 8cadf8aeb6a4806fd188282f431f23820532b5df0754b6958b9dc003ec161004
+SHA256 (smooth.pcf.gz) = 7f06cb9ad8c22404f34294a8ebcdedfb2ce7cd8a62fc1e0a7466d3b47d7026c0
+SHA256 (smooth.alias) = d57fe11c0ba92eb72e196307756d338cb2080d2b81ba4cc8b8d9c35e2045c541
+SHA256 (smooth.conf) = 83ce7186939fa5a52828d65d168c3191f15e2d0677d1884df57569963d167f26
