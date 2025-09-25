@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jue.pub
+RWQJfAOele67BXMLlBnSH0PR3Jci+iov3ypZQhNcqOPHNJkfhF4xmPBCXXb7EUsxa8l0v952I0bcPFv7L5hQ1+h8L6GWQgXKXgE=
+SHA256 (Pkgfile) = 8e62c23dfb2bb0a3e1a334b17ebfc672bdcca5862b41b067a542a0e935dcbd9e
+SHA256 (.footprint) = ab5e102e2e08afcf09fb4dd208332f2f56eb278d6d5fc548607ca88518430aae
+SHA256 (recode-3.7.15.tar.gz) = f590407fc51badb351973fc1333ee33111f05ec83a8f954fd8cf0c5e30439806
