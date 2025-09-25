@@ -1,0 +1,8 @@
+#
+# /etc/ports/jue.httpup: jue's ports collection
+#
+
+ROOT_DIR=/usr/ports/jue
+URL=https://raw.githubusercontent.com/fjaell/crux-ports/main/
+
+# End of file
