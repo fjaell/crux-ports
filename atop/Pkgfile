@@ -1,0 +1,16 @@
+# Description: Enhanced system & process monitor like top
+# URL: http://www.atoptool.nl/index.php
+# Maintainer: Juergen Daubert, jue at crux dot nu
+# Depends on: ncurses zlib
+
+name=atop
+version=2.12.1
+release=1
+source=(http://www.atoptool.nl/download/$name-$version.tar.gz)
+
+build () {
+    cd $name-$version
+    make sysvinstall DESTDIR=$PKG INIPATH=/etc/rc.d
+    rm -r $PKG/etc/{logrotate.d,default}
+    rm $PKG/usr/bin/*-$version
+}

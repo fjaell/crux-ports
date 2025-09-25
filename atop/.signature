@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jue.pub
+RWQJfAOele67Bdvrc6xnZ6Cq5Nz1iuZL/4QJBUUAxZeNt3s2Di9JV0l5Cq7CL3F+3F0U34SxaaTeKd3+B5g5kWWLQ+TNtkMGBAA=
+SHA256 (Pkgfile) = 9b1eeddf47e6f897aa2256e83f1e6f12f2df162336caa3473b5432984872fb5d
+SHA256 (.footprint) = 243f47ca68c8d509a5aa1f36984e2b89d338c46b92ceb567cdbe0eb700c3b9cd
+SHA256 (atop-2.12.1.tar.gz) = 4fdbe67c5dfaf89405639e18599f4eae77978073ffa54f3c78c368ab54bd12f6

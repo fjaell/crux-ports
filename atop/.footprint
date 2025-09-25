@@ -1,0 +1,36 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/cron.d/
+-rw-r--r--	root/root	etc/cron.d/atop
+drwxr-xr-x	root/root	etc/rc.d/
+-rwxr-xr-x	root/root	etc/rc.d/atop
+-rwxr-xr-x	root/root	etc/rc.d/atopacct
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwx--x--x	root/root	usr/bin/atop
+-rwx--x--x	root/root	usr/bin/atopcat
+-rwx--x--x	root/root	usr/bin/atopconvert
+-rwx--x--x	root/root	usr/bin/atophide
+lrwxrwxrwx	root/root	usr/bin/atopsar -> atop
+drwxr-xr-x	root/root	usr/sbin/
+-rwx------	root/root	usr/sbin/atopacctd
+-rwx------	root/root	usr/sbin/atopgpud
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/atop/
+-rwx--x--x	root/root	usr/share/atop/atop.daily
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/atop.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/atopcat.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/atopconvert.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/atophide.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/atopsar.1.gz
+drwxr-xr-x	root/root	usr/share/man/man5/
+-rw-r--r--	root/root	usr/share/man/man5/atoprc.5.gz
+drwxr-xr-x	root/root	usr/share/man/man8/
+-rw-r--r--	root/root	usr/share/man/man8/atopacctd.8.gz
+-rw-r--r--	root/root	usr/share/man/man8/atopgpud.8.gz
+drwxr-xr-x	root/root	var/
+drwxr-xr-x	root/root	var/log/
+drwxr-xr-x	root/root	var/log/atop/
+-rw-r--r--	root/root	var/log/atop/dummy_after (EMPTY)
+-rw-r--r--	root/root	var/log/atop/dummy_before (EMPTY)
