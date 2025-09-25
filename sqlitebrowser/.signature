@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/jue.pub
+RWQJfAOele67BSK+X8en7CwSNOWA7zc0EknuMYUW5FdhweJhKLPceErE83FgC0IGYSBQIzhxLuJYKK1+w3HmbZDGKUY49kG+CQ8=
+SHA256 (Pkgfile) = b891189168160b7654ad68bd1ad33235105c9c850ba5de31c38734deb89d5b35
+SHA256 (.footprint) = 91cc0c94071640197a7e096fee520382806fa15f543e610386fa8ceedaede506
+SHA256 (sqlitebrowser-3.13.1.tar.gz) = 1044ba67d649cabc459eb887c016f70d6a404ad651390ab33bf7859dc7f1b67b
