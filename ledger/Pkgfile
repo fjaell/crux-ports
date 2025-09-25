@@ -1,0 +1,19 @@
+# Description: Command-line accounting tool
+# URL: http://www.ledger-cli.org/
+# Maintainer: Juergen Daubert, jue at crux dot nu
+# Depends on: boost libedit libmpfr ncurses zstd
+
+name=ledger
+version=3.3.2
+release=1
+source=(https://github.com/ledger/ledger/archive/v$version/$name-$version.tar.gz)
+
+build () {
+    cd $name-$version
+
+    sed '1s/python/python3/' -i acprep
+    ./acprep opt update --jobs=${JOBS:-1} --output=build -- -DBUILD_LIBRARY=OFF
+
+    install -D build/ledger $PKG/usr/bin/ledger
+    install -D doc/ledger.1 $PKG/usr/share/man/man1/ledger.1
+}
