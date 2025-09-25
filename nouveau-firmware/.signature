@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/jue.pub
+RWQJfAOele67BWLTSv640p1m1c8rcgKNNxDZbHIP1fCRmrGAqh3oiUJCiFDhqZH/mnsTgliVFIx5nQSgqv2rDpMjoB+RtFd4jAU=
+SHA256 (Pkgfile) = 7087fe7de0a735ed9fb43b63ff204b771de0751e6cc0b334f93c6095da81516d
+SHA256 (.footprint) = 5facc21de32a2cc5bb82b7c7df62aa60415d47bc967d42f25de9801f16e58941
+SHA256 (extract_firmware.py) = b684b37b69a78f58fb3a6cf73684698a65927e701adedbae736ddbb0d1768ea7
+SHA256 (NVIDIA-Linux-x86-340.32.run) = 1d0489c35c5b332c9b949d9de3c3cbab4ac3a94385aa41e7a7b62ef23f4395f5
