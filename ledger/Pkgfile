@@ -4,14 +4,14 @@
 # Depends on: boost libedit libmpfr ncurses zstd
 
 name=ledger
-version=3.3.2
+version=3.4.0
 release=1
 source=(https://github.com/ledger/ledger/archive/v$version/$name-$version.tar.gz)
 
 build () {
     cd $name-$version
 
-    sed '1s/python/python3/' -i acprep
+    sed 's|/gmp.h"|/gmp-64.h"|' -i CMakeLists.txt
     ./acprep opt update --jobs=${JOBS:-1} --output=build -- -DBUILD_LIBRARY=OFF
 
     install -D build/ledger $PKG/usr/bin/ledger
