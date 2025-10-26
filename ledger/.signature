@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/jue.pub
-RWQJfAOele67BTwN2pe4b4C1LYKIM62OKvU9/kbPDsdwg4Arx0m6RSpu4me2YIosW8lXUcRtUSZyQDy7xm5mEZ2c+wKGr/p+Kwo=
-SHA256 (Pkgfile) = a7845d67e6f505c06afdaf850e58dc6d10a145f3525bb00e39996c389bf80745
+RWQJfAOele67Bf/Vy/zwAXzGBUqx33ADN2vr2DGrvtNbwkxHViERtpjzHGAKIkDKy0+U5c1YSmKCO1+Xh5BxXotuQCvz2V1M6AU=
+SHA256 (Pkgfile) = 991012019f99b67b732286d15d220f3fd21009680a1cf2505c7fec130ce7cc67
 SHA256 (.footprint) = c71a4bf97f5e35ea56e5d6a6f316419b5b19f7680c4b5096c791347cf617f627
-SHA256 (ledger-3.4.0.tar.gz) = 1d60b5c78631bbea49bf8201234c15ff9c7e9f2df18d97d27080c8922eae3e13
+SHA256 (ledger-3.4.1.tar.gz) = 1cf012cdc8445cab0efc445064ef9b2d3f46ed0165dae803c40fe3d2b23fdaad

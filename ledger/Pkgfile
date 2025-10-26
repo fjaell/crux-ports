@@ -4,7 +4,7 @@
 # Depends on: boost libedit libmpfr ncurses zstd
 
 name=ledger
-version=3.4.0
+version=3.4.1
 release=1
 source=(https://github.com/ledger/ledger/archive/v$version/$name-$version.tar.gz)
 
